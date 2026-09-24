@@ -838,4 +838,8 @@ def actualizar_scatter(variable_x, variable_y, especie):
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(
+    host="0.0.0.0",
+    port=8050,
+    debug=False
+    )
