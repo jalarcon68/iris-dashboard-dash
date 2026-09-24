@@ -1,0 +1,14 @@
+# Entorno virtual
+ciencia/
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# VS Code
+.vscode/
+
+# Sistema
+.DS_Store
