@@ -606,7 +606,13 @@ app.layout = dbc.Container(
                                     )
                                 ]
                                 ),
-                        dcc.Graph(id="grafico-scatter")                                             
+                        dbc.Row([
+                                dbc.Col(
+                                dcc.Graph(figure=scatter),
+                                width=6
+                                )
+                                ], 
+                                justify="center")                                 
                     ],
                     
                     style={
